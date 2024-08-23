@@ -1,29 +1,29 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Fair Adam Quarto Templates <a href="https://github.com/jpmonteagudo28/fair_adam"><img src="img/logo.png" align="right" height="120" alt="fair adam templates" /></a>
+# Fair Adam Quarto Templates <a href="https://github.com/jpmonteagudo28/fair_adam"><img src="img/logo.png" alt="fair adam templates" align="right" height="180"/></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Fair Adam is to …
+## Why is your repo titled Fair Adam?
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+I wanted to come up with a fancy, clever name but my inspiration failed
+me. I then turned to `despair`😁, a package that generates
+de/motivational quotes and bard-bits - Shakespeare inspired codes for
+personal projects.
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+library(despair)
+despair.message()
+
+bard.bits("character",seed = 99)
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
+## Installation
 
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub.
+``` bash
+quarto add jpmonteagudo28/fair_adam
+```
+
+## Templates

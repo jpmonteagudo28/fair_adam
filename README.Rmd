@@ -11,20 +11,27 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Fair Adam Quarto Templates <a href="https://github.com/jpmonteagudo28/fair_adam"><img src="img/logo.png" align="right" height="120" alt="fair adam templates" /></a>
+# Fair Adam Quarto Templates <a href="https://github.com/jpmonteagudo28/fair_adam"><img src="img/logo.png" alt="fair adam templates" align="right" height="180"/></a>
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of Fair Adam is to ...
+## Why is your repo titled Fair Adam?
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+I wanted to come up with a fancy, clever name but my inspiration failed me. I then turned to `despair`😁, a package that generates de/motivational quotes and bard-bits - Shakespeare inspired codes for personal projects.
 
-```{r cars}
-summary(cars)
+``` r
+library(despair)
+despair.message()
+
+bard.bits("character",seed = 99)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+## Installation
 
+``` bash
+quarto add jpmonteagudo28/fair_adam
+```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
+## Templates
