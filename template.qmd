@@ -1,0 +1,98 @@
+---
+title: |
+The Pipes in the p-values: American Statistical Association Enters into Public Brawl \
+  with American Plumbers Association
+subtitle: "A case study"
+short-title: "ASA Brawl"
+published: "Under review at *American Plumbers Association*"
+code-repo: "Access the code, data, and analysis at <https://git.apa.ufp/rcoeff/asa-brawl>"
+correspondence-prefix: "Correspondence concerning this article should be addressed to"
+author:
+  - name: Robert Coefficient
+    email: rcoefficient@apa.com
+    orcid: 0009-0003-6465-6658
+    title: Chief Statistical Officer
+    affiliations: 
+      - id: APA
+        name: American Plumbers Association
+        department: Office of the CSO
+        address: 1234 Main Street
+        city: Anytown
+        region: NY
+        country: USA
+        postal-code: 12345
+    attributes:
+      corresponding: true
+  
+abstract: |
+  The American Plumbers Association contends with the American Statistical Association over the use of *p*-values. The public brawl was televised and many statisticians were injured as a result of the pipe-throwing and p-trapping show of force of the APA.
+thanks: |
+  Placeholder text generated at https://www.feedough.com/paragraph-generator/.
+additional-info: |
+  We have severe conflict of interests in this matter.
+keywords:
+  - p-values
+  - statistics
+  - plumbing
+date: August 23, 2024
+epigraph:
+  - text: p-values are like coupons:\
+          tempting to use, and lead to overspending. 
+    source: Chad Grayson (PT)
+bibliography: references.bib
+csl: csl/ama.csl
+format:
+  fair_adam-pdf: default
+  #fair_adam-manuscript-pdf: default
+  #fair_adam-manuscript-docx: default
+---
+
+In a surreal clash of worlds, the American Plumbers Asso-ciation found itself entangled in a heated, publicized brawl with the American Statistical Association over the contentious use of p-values, plunging into a chaotic verbal sparring match that ri-valed the battles of ancient gladiators. 
+
+# Main section
+
+As cameras rolled and on-lookers gawked, the two organizations exchanged blows of data analysis versus pipefitting expertise, their arguments echoing through the halls of academia with a cacophony of conflicting ideologies. The clash evolved into a spectacle of intellectual ac-robatics, with metaphors as sharp as cutters and wit as quick as leaks. Amidst this clash of titans, the audience found themselves caught in a whirlpool of statistical significance and plumbing precision, witnessing a showdown where the flow of information intersected with the flow of water in a metaphorical dance of chaos and order. The unexpected confrontation became a caution-ary tale of the perils of miscommunication [@anderson2024], where the pipes of logic clashed with the valves of probability, leaving behind a trail of confusion and amusement in its wake.
+In an unexpected turn of events during the televised event, the President of the American Statistical Association (ASA) found himself flat on the mat within a mere 30 seconds of the physical exchange commencing. Astoundingly, raw muscle triumphed over brain matter as the towering opponent delivered a knockout blow that left the audience in stunned silence [@gonzalez2024]. The juxtaposition of statistical prowess and physical prowess con-verged in a moment that can only be described as a metaphorical clash between calculation and brute force. It was a humbling re-minder that in the ring of life, sometimes numbers and formulas pale in comparison to the primal instinct of survival [@smithson2024]. It was a jaw-dropping example of how within those fleeting moments, brawn outshone brains, leaving a lasting impression that strength isn't always measured in graphs and charts, but in the resilience of the human spirit.
+
+```{r}
+p_traps <- function(p,traps){
+  p * traps
+}
+#how many p-traps were thrown:
+total_p_traps_thrown <- p_traps(3,5)
+```
+
+In the chaotic aftermath of the epic clash between the American Plumbers Association and the American Statistical Association [@kline2024], the collateral damages painted a vivid picture of mayhem and disarray.
+
+The following damages were caused: 
+1.	Burst pipes and flooding.
+2.	Sewage seeped into the cracked pavements and shattered windows.
+3.	The clash of wrenches and calculators
+
+$$
+y = \text{cost of damages} + \beta_1 p -\beta_2wrenches + \beta_3calculators
+$$
+
+In the epic clash between the American Plumbers Association and the American Statistical Association over the significance of p-values, the dust has settled, revealing a landscape for-ever changed. The stark divide between the practical world of pipes and wrenches and the abstract realm of probabilities has been bridged, leaving a new path forward. No longer are p-values seen as mere gatekeepers of statistical significance [@yamamoto2024], but rather as dynamic tools in the plumber's toolbox, guiding decisions with precision and foresight. Like a master plumber wielding a wrench with skill and finesse, the statistical practitioner navigates the murky waters of data analysis, shaping outcomes with a deft touch. The once disparate disciplines now dance in harmonious synergy, their unique strengths merging to form a formidable union. As the curtain falls on this turbulent chapter, the true victor emerges not as a single association [@nguyen2024], but as a collective force of innovation and collaboration, paving the way for a future where the flow of information runs clear and true.
+
+## Visualize it
+
+```{r plot-p-traps}
+#| echo: false
+#| label: fig-np-traps
+#| fig-cap: Too many p-traps thrown
+#| fig-width: 5
+#| fig-height: 1
+#| fig-align: "center"
+par(mar = c(0, 1, 1, 0))
+plot(x = seq(1:total_p_traps_thrown), col = "darkgoldenrod1", 
+     pch = 19, xlab = "", ylab = "")
+```
+
+### Third level heading
+
+Like a master plumber wielding a wrench with skill and finesse, the statistical practitioner navigates the murky waters of data analysis, shaping outcomes with a deft touch. The once disparate disciplines now dance in harmonious synergy, their unique strengths merging to form a formidable union. As the curtain falls on this turbulent chapter, the true victor emerges not as a single association [@nguyen2024], but as a collective force of innovation and collaboration, paving the way for a future where the flow of information runs clear and true.
+
+#### Fourth level heading
+
+The clash between the American Plumbers Association and the American Statistical Association, once marked by tension and rivalry, has ultimately forged a new understanding—one where practical application meets analytical rigor.
